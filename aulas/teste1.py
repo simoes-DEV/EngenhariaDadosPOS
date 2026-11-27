@@ -5,7 +5,8 @@ idade = ano_atual - ano_nascimento
 
 if idade >= 18:
     print (f"Você tem {idade} anos e é maior de idade.")
+    
 else:
-    print ("Você tem {idade} anos e é menor de idade.")
+    print (f"Você tem {idade} anos e é menor de idade.")
 
 print ("Fim do programa.")
